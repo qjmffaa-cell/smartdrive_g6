@@ -19,13 +19,13 @@
   }
 
   &[data-payment-method='maya'] {
-    --receipt-accent: #008f5a;
+    --receipt-accent: #00827f;
     --receipt-tint: #ecfdf3;
   }
 
   &[data-payment-method='srpoints'] {
-    --receipt-accent: #7138d1;
-    --receipt-tint: #f4f0ff;
+    --receipt-accent: #007a76;
+    --receipt-tint: #eaf5f3;
   }
 }
 

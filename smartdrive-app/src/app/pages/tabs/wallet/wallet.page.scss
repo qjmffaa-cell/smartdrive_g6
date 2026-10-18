@@ -25,7 +25,7 @@
   border: 1px solid var(--sd-border);
   border-radius: 22px;
   background: var(--sd-card);
-  box-shadow: 0 10px 28px -18px rgba(76, 29, 149, 0.34);
+  box-shadow: 0 10px 28px -18px rgba(0, 91, 88, 0.34);
 }
 
 .dashboard-page-main {
@@ -66,7 +66,7 @@
   padding: clamp(1.2rem, 3vw, 1.75rem);
   border: 1px solid rgba(255, 255, 255, 0.23);
   border-radius: 22px;
-  background: linear-gradient(140deg, #51269b, #7c3aed 57%, #a855f7);
+  background: linear-gradient(140deg, #269b97, #00827f 57%, #20b8a9);
   color: #fff;
   box-shadow: var(--sd-shadow-md);
 
@@ -227,9 +227,9 @@
   height: 2.65rem;
   flex: 0 0 2.65rem;
   place-items: center;
-  border: 1px solid #e5def1;
+  border: 1px solid #d6e4e1;
   border-radius: 0.8rem;
-  background: #faf8ff;
+  background: #f7fbfa;
   color: var(--sd-primary);
 
   ion-icon {

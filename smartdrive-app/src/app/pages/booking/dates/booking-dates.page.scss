@@ -106,7 +106,7 @@
 .calendar-card {
   padding: clamp(1rem, 2.4vw, 1.5rem);
   border-radius: 1.35rem;
-  box-shadow: 0 18px 48px rgba(76, 29, 149, 0.08);
+  box-shadow: 0 18px 48px rgba(0, 91, 88, 0.08);
 }
 
 .calendar-heading {
@@ -297,7 +297,7 @@
   &.active {
     border-color: var(--sd-primary);
     background: color-mix(in srgb, var(--sd-primary-soft) 34%, var(--sd-card));
-    box-shadow: 0 0 0 1px var(--sd-primary), 0 12px 28px rgba(76, 29, 149, 0.1);
+    box-shadow: 0 0 0 1px var(--sd-primary), 0 12px 28px rgba(0, 91, 88, 0.1);
   }
 }
 
