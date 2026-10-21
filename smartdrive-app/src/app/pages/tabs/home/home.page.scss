@@ -9,8 +9,8 @@
   margin: .85rem 0 1rem;
   border: 1px solid rgba(255, 255, 255, .12);
   border-radius: 1rem;
-  background: #064947;
-  box-shadow: 0 12px 30px rgba(0, 75, 72, .14);
+  background: #321d5c;
+  box-shadow: 0 12px 30px rgba(48, 24, 82, .14);
 }
 
 .promo-slide {
@@ -19,7 +19,7 @@
   display: flex;
   align-items: center;
   animation: promo-appear 350ms ease both;
-  background: linear-gradient(110deg, #064947 0%, #2b8986 55%, #40a4a1 100%);
+  background: linear-gradient(110deg, #321d5c 0%, #532b89 55%, #7540a4 100%);
 }
 
 .promo-image {
@@ -40,7 +40,7 @@
   color: #fff;
 
   > span {
-    color: #c7fffd;
+    color: #e0c7ff;
     font-size: .59rem;
     font-weight: 800;
     letter-spacing: .12em;
@@ -94,7 +94,7 @@
   padding: .25rem;
   border: 1px solid rgba(255, 255, 255, .18);
   border-radius: 999px;
-  background: rgba(20, 53, 52, .38);
+  background: rgba(34, 20, 53, .38);
   backdrop-filter: blur(10px);
 }
 

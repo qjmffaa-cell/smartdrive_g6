@@ -34,10 +34,10 @@
   padding: clamp(1.35rem, 5vw, 2rem);
   border-radius: 1.35rem;
   background:
-    linear-gradient(90deg, rgba(8, 52, 50, .96), rgba(35, 89, 87, .84) 58%, rgba(35, 89, 87, .18)),
+    linear-gradient(90deg, rgba(35, 21, 61, .96), rgba(57, 35, 89, .84) 58%, rgba(57, 35, 89, .18)),
     url('/assets/images/smartdrive-promo-coast.svg') center 52% / cover,
-    #104f4b;
-  box-shadow: 0 16px 38px rgba(0, 75, 72, .18);
+    #35215f;
+  box-shadow: 0 16px 38px rgba(48, 24, 82, .18);
 
   &::after {
     position: absolute;
@@ -59,7 +59,7 @@
     align-items: center;
     gap: .4rem;
     margin: 0;
-    color: #bcebe7;
+    color: #e6d5ff;
     font-size: .59rem;
     font-weight: 850;
     letter-spacing: .12em;
@@ -114,7 +114,7 @@
   padding: .35rem .55rem;
   border: 1px solid rgba(255, 255, 255, .24);
   border-radius: 999px;
-  background: rgba(19, 47, 46, .35);
+  background: rgba(28, 19, 47, .35);
   color: #fff;
   font-size: .58rem;
   font-weight: 800;
@@ -166,7 +166,7 @@
   background: var(--sd-card);
   color: var(--sd-foreground);
   text-align: left;
-  box-shadow: 0 8px 24px rgba(0, 75, 72, .07);
+  box-shadow: 0 8px 24px rgba(48, 24, 82, .07);
   cursor: pointer;
   transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
 
@@ -175,7 +175,7 @@
     transform: translateY(-1px);
     border-color: var(--sd-primary);
     outline: none;
-    box-shadow: 0 13px 30px rgba(0, 75, 72, .12);
+    box-shadow: 0 13px 30px rgba(48, 24, 82, .12);
   }
 }
 
@@ -296,7 +296,7 @@
   background: var(--sd-card);
   color: var(--sd-muted-foreground);
   text-align: center;
-  box-shadow: 0 8px 24px rgba(0, 75, 72, .06);
+  box-shadow: 0 8px 24px rgba(48, 24, 82, .06);
 
   > ion-icon {
     color: var(--sd-primary);

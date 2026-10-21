@@ -187,7 +187,7 @@
   padding: 0.75rem 0.9rem;
   margin-bottom: 0.65rem;
   border-radius: 1rem;
-  box-shadow: 0 5px 18px rgba(25, 60, 59, 0.04);
+  box-shadow: 0 5px 18px rgba(30, 25, 60, 0.04);
   transition: border-color 160ms ease, background-color 160ms ease, transform 160ms ease;
 
   ion-radio {
@@ -217,13 +217,13 @@
 }
 
 .maya-method {
-  --method-accent: #00827f;
+  --method-accent: #008f5a;
   --method-tint: #ecfdf3;
 }
 
 .points-method {
-  --method-accent: #007a76;
-  --method-tint: #eaf5f3;
+  --method-accent: #7138d1;
+  --method-tint: #f4f0ff;
 }
 
 .method-label {
@@ -358,11 +358,11 @@
   }
 
   &[data-payment-method='maya'] .total {
-    color: #00827f;
+    color: #008f5a;
   }
 
   &[data-payment-method='srpoints'] .total {
-    color: #007a76;
+    color: #7138d1;
   }
 }
 
